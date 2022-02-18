@@ -31,7 +31,7 @@ class Search extends Component {
             <div className="container my-3">
                 <form onSubmit={this.onSubmit}>
                     <div className="input-group">
-                        <input type="text" value={this.state.username} onChange={this.onChange} className="form-control" />
+                        <input type="text" value={this.state.username} onChange={this.onChange} className="form-control"/>
                         <div className="input-group-append">
                             <button type='submit' className='btn btn-primary'>Search <i className="fas fa-search"></i></button>
                         </div>
